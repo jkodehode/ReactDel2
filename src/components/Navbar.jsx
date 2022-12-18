@@ -1,30 +1,29 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faEdge } from "@fortawesome/free-brands-svg-icons";
 
 import "./Navbar.css";
 
 const Navbar = () => {
+  const linkIcon = faEdge;
   return (
     <>
       <ul className="menu-bar">
-        <li className="nav-link">
-          <FontAwesomeIcon className="menuItem" icon={faGoogle} />
-        </li>
-        <li className="nav-link">
-          <FontAwesomeIcon className="menuItem" icon={faGoogle} />
-        </li>
-        <li className="nav-link">
-          <FontAwesomeIcon className="menuItem" icon={faGoogle} />
-        </li>
-        <li className="nav-link">
-          <FontAwesomeIcon className="menuItem" icon={faGoogle} />
-        </li>
-        <li className="nav-link">
-          <FontAwesomeIcon className="menuItem" icon={faGoogle} />
-        </li>
+        <MenuItem icon={linkIcon} />
+        <MenuItem icon={linkIcon} />
+        <MenuItem icon={linkIcon} />
+        <MenuItem icon={linkIcon} />
+        <MenuItem icon={linkIcon} />
       </ul>
     </>
+  );
+};
+
+const MenuItem = ({ icon }) => {
+  return (
+    <li className="nav-link">
+      <FontAwesomeIcon className="menuItem" icon={icon} />
+    </li>
   );
 };
 
