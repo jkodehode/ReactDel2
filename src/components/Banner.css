@@ -3,12 +3,12 @@
 }
 
 .banner {
-  background-color: aqua;
+  background-color: var(--color-primary-300);
   border-radius: 10px 10px 0 0;
 }
 
 h2 {
-  color: white;
+  color: var(--color-secondary-300);
   margin: 0;
   padding: 0;
   padding-bottom: 10px;

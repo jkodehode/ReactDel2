@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Header from "./components/Banner";
 import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hei</h1>
+      <Main />
       <Footer />
     </div>
   );

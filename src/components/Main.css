@@ -1,0 +1,8 @@
+.mainContainer {
+  background-color: var(--color-tertiary-300);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

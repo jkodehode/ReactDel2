@@ -1,16 +1,16 @@
 li {
   list-style: none;
-  color: green;
+  color: var(--color-primary-400);
   padding: 5px 15px;
   margin: 10px;
-  background-color: yellow;
+  background-color: var(--color-secondary-300);
   border-radius: 10px;
   cursor: pointer;
 }
 
 li:hover {
-  color: black;
-  background-color: brown;
+  color: var(--color-secondary-300);
+  background-color: var(--color-tertiary-300);
 }
 
 ul {
